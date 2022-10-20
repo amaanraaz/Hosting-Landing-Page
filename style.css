@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f5f5f5;
+}
+.logo{
+    width: 80px;
+    height: 40px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.list-items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 150px;
+}
+.list-item{
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: gray;
+}
+.list-item:nth-child(1){
+    color: black;
+    font-weight: 800;
+}
+.register-btn{
+    margin-right: 50px;
+}
+.register-btn button{
+    padding: 10px 20px;
+    border: 1.5px solid #08B2F6;
+    border-radius: 10px;
+    color: #08B2F6;
+    font-family: Montserrat;
+}
+/* first card */
+.first-card{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.content{
+    width: 45%;
+}
+.first-card .content h1{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 50px;
+}
+.first-card .content p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
+.package-btn{
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 600;
+    background-color: #08B2F6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+}
+.image-1{
+    margin-left: 100px;
+    width: 500px;
+    height: 400px;
+}
+/* Second card */
+.second-card{
+    display: flex;
+    margin-top: 50px;
+}
+.image-2{
+    margin-left: 20px;
+    width: 500px;
+    height: 400px;
+}
+.content-2{
+    width: 45%;
+    margin-left: 50px;
+}
+.second-card .content-2 h1{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 50px;
+}
+.second-card .content-2 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
+.Read-btn{
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 600;
+    background-color: #08B2F6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+}
+/* Third Card */
+.third-card{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.content-3{
+    width: 50%;
+}
+.third-card .content-3 h1{
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 50px;
+}
+.third-card .content-3 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
+.third-card .content-3 .Read-btn{
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 600;
+    background-color: #08B2F6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+}
+.image-3{
+    margin-left: 100px;
+    width: 550px;
+    height: 450px;
+}
+/* Introduction */
+.intro-card{
+    display: flex;
+}
+.intro-head{
+    width: 40%;
+    margin-left: 20px;
+    font-weight: 800;
+    color: #0f0f29;
+    font-size: 23px;
+}
+.intro-para{
+    width: 40%;
+    margin-left: 100px;
+    color: gray;
+    font-size: 15px;
+    margin-top: 40px;
+}
+/* Sevices Cards template */
+.service-introduction1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.template1{
+    margin-right: 30px;
+}
+.template2{
+    margin-right: 30px;
+}
+.template3{
+    margin-right: 30px;
+}
+.template4{
+    margin-right: 30px;
+}
+.template5{
+    margin-right: 30px;
+}
+.template6{
+    margin-right: 30px;
+}
+.template1 h2{
+    font-family: Poppins;
+    font-weight: 800;
+}
+.template1 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+.template2 h2{
+    font-family: Poppins;
+    font-weight: 800;
+}
+.template2 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+.template3 h2{
+    font-family: Poppins;
+    font-weight: 800;
+}
+.template3 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+.service-introduction2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.template4 h2{
+    font-family: Poppins;
+    font-weight: 800;
+}
+.template4 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+.template5 h2{
+    font-family: Poppins;
+    font-weight: 800;
+}
+.template5 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+.template6 h2{
+    font-family: Poppins;
+    font-weight: 800;
+}
+.template6 p{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: gray;
+    font-size: 12px;
+}
+
+/* Package Section */
+.package-section{
+    margin-top: 100px;
+    background-color: #08B2F6;
+    padding: 50px 70px;
+}
+.package-section .heading{
+    color: #fff;
+    margin-left: 350px;
+}
+.packages-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.starter-pack{
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 230px;
+    height: 400px;
+}
+.starter-pack h1{
+    font-size: 25px;
+}
+.starter-pack p{
+    font-family: Montserrat;
+    font-size: 11px;
+    margin-top: 10px;
+    color: gray;
+}
+.popular-pack{
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 230px;
+    height: 400px;
+}
+.popular-pack h1{
+    font-size: 25px;
+}
+.popular-pack p{
+    font-family: Montserrat;
+    font-size: 11px;
+    margin-top: 10px;
+    color: gray;
+}
+.buisness-pack{
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 230px;
+    height: 400px;
+}
+.buisness-pack h1{
+    font-size: 25px;
+}
+.buisness-pack p{
+    font-family: Montserrat;
+    font-size: 11px;
+    margin-top: 10px;
+    color: gray;
+}
+.pack-desc{
+    margin-top: 30px;
+} 
+.pack-benifits{
+    display: flex;
+    margin-top: 15px;
+}
+.pack-benifits p{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.pricing{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.pricing h1 span{
+    color: gray;
+}
+.pricing p{
+    margin-top: 5px;
+    color: gray;
+    margin-left: 35px;
+}
+.pricing .choose-plan{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #08B2F6;
+    border: 2px solid #08B2F6;
+    padding: 5px 15px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.customer-feedback{
+    margin-top: 100px;
+}
+.customer-feedback h1{
+    margin-left: 450px;
+    font-family: Poppins;
+    font-weight: 800;
+}
+.customer-feedback .brief{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    color: gray;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.customer-experience{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.customer-section{
+    background-color: #fff;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 50px 20px;
+}
+.customer-section p{
+    font-family: Montserrat;
+    font-size: 12px;
+}
+.user-section{
+    display: flex;
+    align-items: center;
+}
+.name h3{
+    font-family: Montserrat;
+}
+.name p{
+    color: gray;
+}
+.register-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #08B2F6;
+    height: 200px;
+}
+.left-section{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 400px;
+}
+.left-section h1{
+    font-family: Poppins;
+    color: #fff;
+    font-size: 35px;
+}
+.left-section p{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.btn-reg button{
+    margin-top: 80px;
+    margin-right: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+.footer .into{
+    width: 300px;
+}
+.footer .into img{
+    width: 100px;
+    height: 90px;
+}
+.footer .into p{
+    color: gray;
+    font-size: 13px;
+}
+.menu-items{
+    list-style: none;
+    color: gray;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.link-items{
+    list-style: none;
+    color: gray;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.overview-items{
+    list-style: none;
+    color: gray;
+    font-size: 13px;
+    margin-top: 10px;
+}
